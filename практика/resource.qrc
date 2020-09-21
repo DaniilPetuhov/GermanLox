@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="картинки">
+    <file>картинки/univ.jpg</file>
+  </qresource>
+</RCC>

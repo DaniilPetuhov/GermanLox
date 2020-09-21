@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>exitaccept</class>
+ <widget class="QDialog" name="exitaccept">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>163</height>
+   </rect>
+  </property>
+  <property name="windowOpacity">
+   <double>2.500000000000000</double>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QDialog
+{
+background:#333;
+border-radius:15px;
+}
+
+
+
+QLabel
+{
+font-family: century gothic;
+font-size:24px;
+color: white;
+}
+
+QPushButton
+{
+background: steelblue;
+border-radius: 10px;
+color: white;
+}
+
+QPushButton:pressed
+{
+background: teal;
+border-radius: 10px;
+color: white;
+}</string>
+  </property>
+  <widget class="QPushButton" name="pushButton_4">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>60</y>
+     <width>151</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Century Gothic</family>
+     <pointsize>14</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>ДА</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_5">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>60</y>
+     <width>151</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Century Gothic</family>
+     <pointsize>14</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">*{
+background-color:red;
+}
+
+QPushButton:pressed
+{
+background: darkred;
+border-radius:15px;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>НЕТ</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>391</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>century gothic</family>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>Вы действительно хотите выйти?</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
